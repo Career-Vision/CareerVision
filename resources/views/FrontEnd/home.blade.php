@@ -1,2 +1,1 @@
 @extends('FrontEnd.master')
-

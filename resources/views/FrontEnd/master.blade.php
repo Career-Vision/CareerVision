@@ -561,7 +561,7 @@
               <div class="feturead mb-30 mb-sm-30">
                 <div class="thumb"> <img src="images/services/k1.jpg" class="img-fullwidth" alt=""> </div>
                 <div class="bg-white p-20">
-                  <h4 class="line-bottom text-uppercase font-weight-600 mt-0 mb-15">Depression Treatment</h4>
+                  <h4 class="line-bottom text-uppercase font-weight-600 mt-0 mb-15">Career Guidance</h4>
                   <p>Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.</p>
                   <a class="btn btn-theme-colored btn-sm btn-flat" href="#">Read More</a>
                 </div>
@@ -571,7 +571,7 @@
               <div class="feturead mb-30 mb-sm-30">
                 <div class="thumb"> <img src="images/services/k2.jpg" class="img-fullwidth" alt=""> </div>
                 <div class="bg-white p-20">
-                  <h4 class="line-bottom text-uppercase font-weight-600 mt-0 mb-15">Relationship Problems</h4>
+                  <h4 class="line-bottom text-uppercase font-weight-600 mt-0 mb-15">Aptitude Test</h4>
                   <p>Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.</p>
                   <a class="btn btn-theme-colored btn-sm btn-flat" href="#">Read More</a>
                 </div>
@@ -581,42 +581,13 @@
               <div class="feturead mb-30 mb-sm-30">
                 <div class="thumb"> <img src="images/services/k3.jpg" class="img-fullwidth" alt=""> </div>
                 <div class="bg-white p-20">
-                  <h4 class="line-bottom text-uppercase font-weight-600 mt-0 mb-15">Sexual Counselling</h4>
+                  <h4 class="line-bottom text-uppercase font-weight-600 mt-0 mb-15">Career Explroation</h4>
                   <p>Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.</p>
                   <a class="btn btn-theme-colored btn-sm btn-flat" href="#">Read More</a>
                 </div>
               </div>
             </div>
-            <div class="col-md-4 col-sm-6">
-              <div class="feturead mb-sm-30">
-                <div class="thumb"> <img src="images/services/k4.jpg" class="img-fullwidth" alt=""> </div>
-                <div class="bg-white p-20">
-                  <h4 class="line-bottom text-uppercase font-weight-600 mt-0 mb-15">Personal Development</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.</p>
-                  <a class="btn btn-theme-colored btn-sm btn-flat" href="#">Read More</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-6">
-              <div class="feturead mb-sm-30">
-                <div class="thumb"> <img src="images/services/k5.jpg" class="img-fullwidth" alt=""> </div>
-                <div class="bg-white p-20">
-                  <h4 class="line-bottom text-uppercase font-weight-600 mt-0 mb-15">Couples Counselling</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.</p>
-                  <a class="btn btn-theme-colored btn-sm btn-flat" href="#">Read More</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-6">
-              <div class="feturead">
-                <div class="thumb"> <img src="images/services/k6.jpg" class="img-fullwidth" alt=""> </div>
-                <div class="bg-white p-20">
-                  <h4 class="line-bottom text-uppercase font-weight-600 mt-0 mb-15">Anxiety Counselling</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.</p>
-                  <a class="btn btn-theme-colored btn-sm btn-flat" href="#">Read More</a>
-                </div>
-              </div>
-            </div>
+            
           </div>
         </div>
       </div>
