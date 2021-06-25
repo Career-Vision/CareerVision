@@ -21,5 +21,8 @@ Route::get('/reservation',function() {
     return view('ajax-load/reservation-form');
 });
 
+Route::get('/index',function() {
+    return view('index');
+});
 
 
