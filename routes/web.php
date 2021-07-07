@@ -21,8 +21,26 @@ Route::get('/reservation',function() {
     return view('ajax-load/reservation-form');
 });
 
-Route::get('/index',function() {
-    return view('index');
+
+Route::get('/tenthscience',function() {
+    return view('FrontEnd/tenthscience');
 });
+
+Route::get('/tenthcom',function() {
+    return view('FrontEnd/tenthcom');
+});
+
+Route::get('/tentharts',function() {
+    return view('FrontEnd/tentharts');
+});
+
+Route::get('/login',function() {
+    return view('FrontEnd/login');
+});
+Route::get('/signup',function() {
+    return view('FrontEnd/signup');
+});
+
+
 
 

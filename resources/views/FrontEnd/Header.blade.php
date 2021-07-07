@@ -38,7 +38,7 @@
               <img src="images/logo-wide.png"  alt="">
             </a>
             <ul class="menuzord-menu">
-              <li class="active"><a href="#home">Home</a>
+              <li ><a href="#home">Home</a>
                 
               </li>
               <li><a href="#">Services</a>
@@ -52,15 +52,15 @@
                 <ul class="dropdown">
                   <li><a href="#">10TH</a>
                     <ul class="dropdown">
-                      <li><a href="features-header-style1.html">Science</a></li>
-                      <li><a href="features-header-style2.html">Commerce</a></li>
-                      <li><a href="features-header-style3.html">Arts</a></li>
+                      <li><a href="tenthscience">Science</a></li>
+                      <li><a href="tenthcom">Commerce</a></li>
+                      <li><a href="tentharts">Arts</a></li> 
                      </ul>
                   </li>
                   <li><a href="features-preloader.html">12TH</a></li>
                 </ul>
               </li>
-              <li><a href="#">Pages</a>
+              {{-- <li><a href="#">Pages</a>
                 <ul class="dropdown">
                   <li><a href="#">About</a>
                     <ul class="dropdown">
@@ -280,7 +280,8 @@
                     </div>
                   </div>
                 </div>
-              </li>
+              </li> --}}
+              <li class="active"><a href="login"><i class="fa fa-user" aria-hidden="true"></i>Login</a>
             </ul>
           </nav>
         </div>

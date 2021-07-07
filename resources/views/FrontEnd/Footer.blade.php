@@ -5,7 +5,7 @@
  <footer id="footer" class="footer" data-bg-img="images/footer-bg.png" data-bg-color="#25272e">
     <div class="container pt-70 pb-40">
       <div class="row border-bottom-black">
-        <div class="col-sm-6 col-md-3">
+        <div class="col-sm-6 col-md-4">
           <div class="widget dark">
             <img class="mt-10 mb-20" alt="" src="images/logo-wide-white-footer.png">
             <p>203, Envato Labs, Behind Alis Steet, Melbourne, Australia.</p>
@@ -24,7 +24,7 @@
             </ul>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3">
+        <div class="col-sm-6 col-md-4">
           <div class="widget dark">
             <h5 class="widget-title line-bottom">Latest News</h5>
             <div class="latest-posts">
@@ -52,7 +52,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3">
+        <div class="col-sm-6 col-md-4">
           <div class="widget dark">
             <h5 class="widget-title line-bottom">Useful Links</h5>
             <ul class="list angle-double-right list-border">
@@ -64,15 +64,7 @@
             </ul>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3">
-          <div class="widget dark">
-              <h5 class="widget-title line-bottom">Photos from Flickr</h5>
-              <div id="flickr-feed" class="clearfix">
-                <script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=9&amp;display=latest&amp;size=s&amp;layout=x&amp;source=user&amp;user=52617155@N08">
-                </script>
-              </div>
-            </div>
-        </div>
+      
       </div>
     </div>
     <div class="footer-bottom bg-black-333">
