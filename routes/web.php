@@ -15,7 +15,7 @@ use App\Http\Controllers\PostController;
 */
 
 
-Route::get('/index',[PostController::class,'index']);
+Route::get('/',[PostController::class,'index']);
 
 Route::get('/reservation',function() {
     return view('ajax-load/reservation-form');

@@ -26,6 +26,7 @@
 <link href="css/jquery-ui.min.css" rel="stylesheet" type="text/css">
 <link href="css/animate.css" rel="stylesheet" type="text/css">
 <link href="css/css-plugin-collections.css" rel="stylesheet"/>
+<link rel="stylesheet" type="text/css" href="css/frontend/style1.css" media="print" onload="this.media='all'">
 <!-- CSS | menuzord megamenu skins -->
 <link id="menuzord-menu-skins" href="css/menuzord-skins/menuzord-rounded-boxed.css" rel="stylesheet"/>
 <!-- CSS | Main style file -->
@@ -726,6 +727,92 @@
       </div>
     </section>
 
+    <center>
+      <h2>Frequently Asked Questions</h2>
+      </center>
+      <div class="dmit-line"><span class="dmit-line-title"></span></div>
+      <br>
+      <div class="accordions">
+      <div class="accordion-item">
+      <div class="accordion-title" data-tab="item0">
+      <h2><p>What is career counselling?</p>
+      <i class="fa fa-chevron-down"></i></h2>
+      </div>
+      <div class="accordion-content" id="item0">
+      <p>
+      <p>Career counselling also known as career guidance is counselling intended to help an individual to choose or change a career. An individuals career is one of the most significant parts of their life and with many different career options to choose from, individuals get confused as to what career is right for them. Career counselling helps individuals understand their interests and skills that in-turn help individuals choose the right career path. A career counsellor can help individuals by outlining and talking about one&#39;s innate potentials and career alternatives.</p>
+      </p>
+      </div>
+      </div>
+      <div class="accordion-item">
+      <div class="accordion-title" data-tab="item1">
+      <h2><p>What does a career counsellor do?</p>
+      <i class="fa fa-chevron-down"></i></h2>
+      </div>
+      <div class="accordion-content" id="item1">
+      <p>
+      <p>A career counsellor is a therapist or a life mentor who is qualified in providing career counselling, discussing career goals, providing individuals with appropriate career planning and interpreting aptitude and ability tests. Career counsellors work with individuals who have various questions regarding career paths to choose from. A career counsellor helps individuals get a clearer idea as to what career path is right for them, they also help plan long term and short term career goal. Career counsellors with the help of aptitude tests and interest tests understand an individual&#39;s skills and abilities, then provide career counselling which helps individuals choose an appropriate career for themselves.</p>
+      </p>
+      </div>
+       </div>
+      <div class="accordion-item">
+      <div class="accordion-title" data-tab="item2">
+      <h2><p>Why is career counselling important?</p>
+      <i class="fa fa-chevron-down"></i></h2>
+      </div>
+      <div class="accordion-content" id="item2">
+      <p>
+      <p>Career counselling refers to counselling provided by career counsellors who help individuals choose an appropriate career based on their interests, skills and abilities. The main objective of career counselling is to help students pick a field that complements their abilities and skills the most. Hence, career guidance/career counselling is very important as it will help students to choose from various career choices and pick out the career path that is best for them and perform their level best in it, which will help them succeed and make a better life.</p>
+      </p>
+      </div>
+      </div>
+      <div class="accordion-item">
+      <div class="accordion-title" data-tab="item3">
+      <h2><p>How much career counsellor charge in India?</p>
+      <i class="fa fa-chevron-down"></i></h2>
+      </div>
+      <div class="accordion-content" id="item3">
+      <p>
+      <p>Career counsellors are professions who provide career counselling to individuals who are confused as to what career option to choose. The career counselling centre provides professional career counselling by certified career counsellors and they charge a fee between Rs1500 to Rs 5000.</p>
+      </p>
+      </div>
+      </div>
+      <div class="accordion-item">
+      <div class="accordion-title" data-tab="item4">
+      <h2><p>What is career guidance?</p>
+      <i class="fa fa-chevron-down"></i></h2>
+      </div>
+      <div class="accordion-content" id="item4">
+      <p>
+      <p>Career guidance is guidance given to individuals to help them gain insight about the skills and abilities they possess that is very important to recognize career options and help them decide on one career choice. Career counselors provide individuals with appropriate career guidance that will help them choose the right career path from different career choices that are present in front of them. Having various career options to choose from, can confuse individuals as to which career option is best for them, career guidance will help them recognize their aptitude and interests and help them pick the right career path.</p>
+      </p>
+      </div>
+      </div>
+      <div class="accordion-item">
+      <div class="accordion-title" data-tab="item5">
+      <h2><p>What is a career assessment?</p>
+      <i class="fa fa-chevron-down"></i></h2>
+      </div>
+      <div class="accordion-content" id="item5">
+      <p>
+      <p>Career assessment uses various tests to determine what occupations and careers may fit best for an individual and a large number of organizations are utilizing career assessment tools to help them find out the best candidate to fill in empty positions. A huge variety of career assessment tools exist, career counselling is provided using these tools. Career counsellors use various career assessment tools such as aptitude tests, interest tests, personality tests to evaluate an individual&#39;s abilities and skills. Once that is completed, career counselling is provided by career counsellors who on the bases of these career assessment tools help individuals choose the right career path.</p>
+      </p>
+      </div>
+      </div>
+      <div class="accordion-item">
+      <div class="accordion-title" data-tab="item6">
+      <h2><p>Why Brainwonders career counselling is the right choice for you?</p>
+      <i class="fa fa-chevron-down"></i></h2>
+      </div>
+      <div class="accordion-content" id="item6">
+      <p>
+      <p>Brainwonders career counselling centre provides students with a certified aptitude test, interest test, personality test and DMIT test. These tests are used by the career counsellors to evaluate students innate abilities, skills and potential which will give the career counsellor a better idea as to which career option is best suited for the student. During the career counselling that will be provided by Brainwonders, the career counsellor will help students understand their strengths, weaknesses, abilities, skills and aptitude. In this way, the career counsellor will help the students choose the right career path.</p>
+      </p>
+      </div>
+      </div>
+      </div>
+
+
     <!-- Section: Gallery -->
     <section id="gallery">
       <div class="container">
@@ -1206,6 +1293,85 @@
 <!-- Footer Scripts -->
 <!-- JS | Custom script for all pages -->
 <script src="js/custom.js"></script>
+<script>
+  $(document).ready(function() {
+     $(".accordion-title").click(function(e) {
+        var accordionitem = $(this).attr("data-tab");
+        $("#" + accordionitem).slideToggle().parent().siblings().find(".accordion-content").slideUp();
+
+        $(this).toggleClass("active-title");
+        $("#" + accordionitem).parent().siblings().find(".accordion-title").removeClass("active-title");
+
+        $("i.fa-chevron-down", this).toggleClass("chevron-top");
+        $("#" + accordionitem).parent().siblings().find(".accordion-title i.fa-chevron-down").removeClass("chevron-top");
+     });
+
+   $("#grabform").validate({
+          rules:
+          {
+              'data[name]':
+                      {
+                          required: true
+                      },
+              'data[email]':
+                      {
+                          required: true,
+                          email:true
+                      },
+              'data[contact]': {
+                  required: true,
+                  number:true
+              }
+          },
+          messages: {
+              'data[name]': {
+                  required: "Name is Required"
+  
+              },
+              'data[email]': {
+                  required: "Email is required",
+                  email:"please enter valid emial."
+              },
+              'data[contact]': {
+                  required: "Contact is required"
+              }
+          },
+          submitHandler: function (form) {
+           //grecaptcha.execute();
+           /*var captcharesp = $('.g-recaptcha-response').val();
+            $.ajax({
+               url: 'https://www.brainwonders.in/form/post_captcha', 
+               type: 'POST', 
+               data: {"g-recaptcha-response":captcharesp},
+               success: function(result) {
+                  //alert('captcha success');
+                  form.submit();
+               },
+               error:function(result)
+               {   
+                   alert('Please Select Captcha');
+               }    
+           });*/
+           $.ajax({
+               type: "POST",
+               url: "https://www.brainwonders.in/form/insertdata",
+               data: $(form).serialize(),
+               success: function (data) {
+                   $("#thankyou_submit_grabform").show();
+               },
+               error: function (data) {
+                   alert('Error Occurred, Please Try Again Later!');
+               }
+           });
+          },        
+          errorElement: 'p',
+          errorPlacement: function (error, element) {
+              error.insertAfter(element);
+          }
+   });
+
+  });
+</script>
 
 <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  
       (Load Extensions only on Local File Systems ! 
@@ -1219,7 +1385,7 @@
 <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.parallax.min.js"></script>
 <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.slideanims.min.js"></script>
 <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.video.min.js"></script>
-
+<script src='../www.google.com/recaptcha/api.js'></script>
 </body>
 
 <!-- Mirrored from html.kodesolution.live/s/counseling/v3.0/demo/index-mp-layout3.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 23 Jun 2021 09:10:26 GMT -->

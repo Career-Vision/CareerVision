@@ -38,7 +38,7 @@
               <img src="images/logo-wide.png"  alt="">
             </a>
             <ul class="menuzord-menu">
-              <li ><a href="index">Home</a>
+              <li ><a href="/">Home</a>
                 
               </li>
               <li><a href="#">Services</a>
