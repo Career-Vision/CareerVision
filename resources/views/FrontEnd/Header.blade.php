@@ -38,14 +38,14 @@
               <img src="images/logo-wide.png"  alt="">
             </a>
             <ul class="menuzord-menu">
-              <li ><a href="#home">Home</a>
+              <li ><a href="index">Home</a>
                 
               </li>
               <li><a href="#">Services</a>
                 <ul class="dropdown">
-                  <li><a href="page-services-depression-treatment.html">Career Guidance</a></li>
-                  <li><a href="page-services-relationship-problems.html">Aptitude Test</a></li>
-                  <li><a href="page-services-depression-treatment.html">Career Explroation</a></li>
+                  <li><a href="careerguidence">Career Guidance</a></li>
+                  <li><a href="aptitudetest">Aptitude Test</a></li>
+                  <li><a href="careerexploration">Career Explroation</a></li>
                 </ul>
               </li>
               <li><a href="#">Students</a>

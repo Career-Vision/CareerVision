@@ -81,4 +81,51 @@ class PostController extends Controller
     {
         //
     }
+
+
+
+    public function aptitudetest()
+    {
+        return view('FrontEnd.Aptitude_Test.aptitudetest');
+    }
+
+    
+    public function sciencetest()
+    {
+        return view('FrontEnd.Aptitude_Test.sciencetest');
+    }
+    
+    public function commercetest()
+    {
+        return view('FrontEnd.Aptitude_Test.commercetest');
+    }
+
+    public function arttest()
+    {
+        return view('FrontEnd.Aptitude_Test.arttest');
+    }
+
+    public function thankyou()
+    {
+        return view('FrontEnd.Aptitude_Test.thankyou');
+    }
+
+
+    public function careerguidence()
+    {
+        return view('FrontEnd.Career_Guidence.careerguidence');
+    }
+
+
+    public function careerexploration()
+    {
+        return view('FrontEnd.Career_Exploration.careerexploration');
+    }
+
+    public function appoinments()
+    {
+        return view('FrontEnd.Career_Guidence.Appoinment.appoinments');
+    }
+
+
 }

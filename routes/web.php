@@ -15,7 +15,7 @@ use App\Http\Controllers\PostController;
 */
 
 
-Route::get('/',[PostController::class,'index']);
+Route::get('/index',[PostController::class,'index']);
 
 Route::get('/reservation',function() {
     return view('ajax-load/reservation-form');
@@ -42,5 +42,20 @@ Route::get('/signup',function() {
 });
 
 
+Route::get('/aptitudetest',[PostController::class,'aptitudetest']);
 
+Route::get('/aptitudetest/sciencetest',[PostController::class,'sciencetest']);
+
+Route::get('/aptitudetest/commercetest',[PostController::class,'commercetest']);
+
+Route::get('/aptitudetest/arttest',[PostController::class,'arttest']);
+
+Route::post('/aptitudetest/thankyou',[PostController::class,'thankyou']);
+
+
+Route::get('/careerguidence',[PostController::class,'careerguidence']);
+
+Route::get('/appoinments',[PostController::class,'appoinments']);
+
+Route::get('/careerexploration',[PostController::class,'careerexploration']);
 
